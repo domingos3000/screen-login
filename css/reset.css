@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 
 Creator: Domingos Nkula Pedro
@@ -48,57 +48,4 @@ button	{
 
 	max-width: 100% !important;
 	width: 100% !important;
-}
-=======
-/*
-
-Creator: Domingos Nkula Pedro
-Date: 19/07/2021
-****
-INSTAGRAM: https://www.instagram.com/domingos_3000/
-****
-LINKDIN: https://www.linkedin.com/in/domingos3000/
-****
-FACEBOOK: https://web.facebook.com/domingos3000/
-****
-YOUTUBE: https://www.youtube.com/channel/UCMCtUborlbq4gUgdEenexhw
-
-*/
-
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Segoe UI';
-	font-size: 14px;
-}
-
-.container {
-	margin: 0 auto;
-	max-width: 395px;
-}
-
-:root {
-	--orange: rgb(243, 118, 83);
-	--blue: rgb(41, 64, 79);
-	--white: rgb(255, 255, 255);
-}
-
-body {
-	width: 100%;
-	background-color: var(--blue);
-}
-
-button	{
-	cursor: pointer;
-}
-
-@media(min-width: 700px) {
-	.card-top .container {
-
-	max-width: 100% !important;
-	width: 100% !important;
-}
->>>>>>> 5f1d6c09c9a535a6565a5f4ef265d6d0791cecf9
 }
