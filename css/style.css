@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 
 Creator: Domingos Nkula Pedro
@@ -178,3 +179,185 @@ YOUTUBE: https://www.youtube.com/channel/UCMCtUborlbq4gUgdEenexhw
 }
 
 
+=======
+/*
+
+Creator: Domingos Nkula Pedro
+Date: 19/07/2021
+****
+INSTAGRAM: https://www.instagram.com/domingos_3000/
+****
+LINKDIN: https://www.linkedin.com/in/domingos3000/
+****
+FACEBOOK: https://web.facebook.com/domingos3000/
+****
+YOUTUBE: https://www.youtube.com/channel/UCMCtUborlbq4gUgdEenexhw
+
+*/
+
+
+/*
+==> CARD | PHOTO
+*/
+
+
+.card-top {margin-bottom: 50px;}
+.card-top .container {
+
+	width: 395px;
+	height: 128px;
+	border-radius: 23px;
+	background-color: var(--orange);
+	position: relative;
+	top: -51px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.card-top .container .photo {
+	background-color: var(--white);
+	position: absolute;
+	bottom: -35px;
+
+	width: 77.3px; height: 77.3px;
+	border-radius: 50%;
+	border:  4px solid var(--blue);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.card-top .container .photo img {
+	width: 43px;
+}
+
+
+/*
+==> FORM | INPUT
+*/
+
+.form .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form .container .box-input {
+	width: 325px;
+	height: 50px;
+	margin-bottom: 38px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.form .container .box-input input {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.10);
+	border: 1px solid rgb(255,255,255);
+	border-radius: 5px;
+	outline: none;
+	padding-left: 66px;
+	font-size: 14px;
+}
+
+.form .container .box-input input {
+	color: rgb(255,255,255);
+}
+
+.form .container .box-input input::placeholder {
+	color: rgb(255,255,255,0.60);
+}
+
+.form .container .box-input .icon {
+	position: absolute;
+	left: 20px;
+	padding-right: 16px;
+	border-right: 1px solid rgba(255,255,255, 0.70);
+
+}
+
+.form .container .box-input .icon svg {
+	width: 15px;
+	fill: rgba(255,255,255, 0.70);
+}
+
+.form .container .btn-submit {
+	width: 114px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: var(--orange);
+	color: var(--white);
+	text-transform: uppercase;
+	margin-bottom: 73px;
+}
+
+.form .container .btn-submit:hover {
+	background-color: rgb(255, 99, 56);
+}
+
+.more-info .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.line-h {
+	color: rgb(255,255,255);
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	margin-bottom: 38px;
+	opacity: 0.7;
+}
+
+.line-h::before,
+.line-h::after {
+	content: '';
+	display: inline-block;
+	width: 68px; height: 1px;
+	background-color: rgba(255, 255, 255, 1.0);
+	margin:  12.5px;
+}
+
+.more-info .other-login {
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.more-info .other-login .btn-login {
+	width: 128px;
+	height: 38px;
+	border-radius: 23px;
+	border: none;
+	background-color: rgb(255, 255, 255);
+	padding: 0 17px 0 10px;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.more-info .other-login .btn-login  img{
+	position: relative;
+	object-fit: cover;
+	vertical-align: middle;
+}
+
+.more-info .link a {
+	color: rgb(255, 255, 255);
+}
+
+.more-info .link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 260px;
+	margin-top: 38px;
+}
+
+
+>>>>>>> 5f1d6c09c9a535a6565a5f4ef265d6d0791cecf9
